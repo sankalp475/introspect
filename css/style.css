@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.nav {
+  width: 100%;
+  background: #1c1c1c;
+  color: #d5d5d5;
+  height: 80px;
+  left: 0;
+  line-height: 81px;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  z-index: 10001;
+}
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+.logo {
+  width: 50%;
+  float: left;
+}
+.menu {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.logo h1 {
+  color: #ff5050;
+  font-family: "Pacifico", cursive;
+  font-size: 29px;
+  font-weight: 100;
+  text-align: left;
+  line-height: 81px;
+}
+ul li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  position: relative;
+  left: 100px;
+}
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+  line-height: 81px;
+  margin-left: 35px;
+  margin-right: -10px;
+}
+.container {
+  width: 100%;
+  padding: 208px 0 176px 0;
+  background-color: #e5474b;
+  color: #f2a3a5;
+  background-color: #0c0c0c;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+  position: relative;
+  top: 50px;
+  z-index: 9999;
+}
+.container-banner {
+  font-size: 21px;
+}
+.container-banner h1 {
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 4px;
+  padding-bottom: 23px;
+}
+.container-banner .btn {
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 3px solid #ffffff;
+  outline: none;
+}
+.lorem {
+  margin-left: -50px;
+  width: 100%;
+  padding: 50px;
+  clear: both;
+  padding-top: 140px;
+}
+.lorem h1 {
+  font-size: 35px;
+  padding: 0 40px 40px 0;
+  color: #ff4646;
+}
+.lorem p {
+  line-height: 26px;
+  font-size: 19px;
+}
+button.btn {
+  margin-top: 30px;
+  margin-bottom: 39px;
+  padding: 10px 30px 10px 30px;
+  background-color: transparent;
+  color: #e5474b;
+  text-transform: uppercase;
+  border: 3px solid #e5474b;
+  outline: none;
+}
+.section {
+  width: 100%;
+  height: 489px;
+  position: relative;
+  background: linear-gradient(to right, #f3f3f3f3 50%, #f7f7f7 50%);
+  top: 10px;
+  padding-bottom: 40px;
+}
+div.left {
+  float: left;
+  width: 50%;
+}
+div.right {
+  float: left;
+  width: 50%;
+}
+.text h3 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff4646;
+}
+.right h3 {
+  margin-left: 99px;
+}
+.image img {
+  margin-bottom: 30px;
+}
+.left p {
+  line-height: 30px;
+  width: 200px;
+  font-size: 19px;
+  clear: both;
+  width: 480px;
+}
+.right p {
+  line-height: 30px;
+  font-size: 19px;
+  clear: both;
+  width: 480px;
+  margin: 0 0 32px 103px;
+}
+.right img {
+  float: right;
+}
+.three-div {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.one {
+  width: 32%;
+  float: left;
+}
+.two {
+  width: 32%;
+  float: left;;
+}
+.three {
+  width: 36%;
+  float: left;
+}
+.one .fa {
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: #b3b3b3;
+}
+.two .fa {
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: #b3b3b3;
+}
+.three .fa {
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: #b3b3b3;
+}
+
+.one p {
+  line-height: 30px;
+  width: 300px;
+  color: #b3b3b3;
+  font-weight: 100;
+  font-size: 19px;
+}
+.two p {
+  line-height: 30px;
+  width: 300px;
+  color: #b3b3b3;
+  font-weight: 100;
+  font-size: 19px;
+  position: relative;
+  left: 70px;
+}
+.three p {
+  line-height: 30px;
+  width: 300px;
+  color: #b3b3b3;
+  font-weight: 100;
+  font-size: 19px;
+}
+.two .fa{
+    position: relative;
+    left: 70px;
+} 
+.two h3{
+    position: relative;
+    left: 70px;
+} 
+
+.two .btn{
+    position: relative;
+    left: 70px;
+}
+.three .fa{
+    position: relative;
+    left: 130px;
+} 
+.three h3{
+    position: relative;
+    left: 130px;
+} 
+
+.three .btn{
+    position: relative;
+    left: 130px;
+}
+
+.three p{
+    position: relative;
+    left: 130px;
+}
+
+
+.three .fa h3 .btn p {
+  position: relative;
+  left: 40px;
+}
+.form {
+  width: 100%;
+  background-color: #ff4646;
+}
+header h2{
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+}
+.flx{
+    float: left;
+    width: 45%;
+    margin-bottom: 90px; 
+}
+.flx2{
+    float: right;
+    width: 45%;
+    margin-bottom: 90px;  
+}
+
+label {
+    text-transform: uppercase;
+    color: #fceced;
+    display: block;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+#message{
+    position: relative;
+    top: 75px;
+    left: -515px;
+}
+input{
+    width: 95%;
+    background-color: transparent;
+    border: 4px solid #b4b4b4;
+    outline: transparent;
+    color: #ffffff;
+    padding: 5px 0 5px 20px;
+    font-size: 20px;
+}
+textarea{
+    width: 96%;
+    background-color: transparent;
+    border: 4px solid #b4b4b4;
+    outline: transparent;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.btn1{
+    margin-top: 30px;
+    margin-bottom: 39px;
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    outline: none;  
+}
+
+.pere{
+    padding-bottom: 45px;
+    color: #bdbdbd;
+}
